@@ -12,6 +12,8 @@
 		2C8D24751EF4F7B0003A96E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D24731EF4F7B0003A96E2 /* Main.storyboard */; };
 		2C8D24771EF4F7B0003A96E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D24761EF4F7B0003A96E2 /* Assets.xcassets */; };
 		2C8D247A1EF4F7B0003A96E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D24781EF4F7B0003A96E2 /* LaunchScreen.storyboard */; };
+		2C8D24831EF503C3003A96E2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D24811EF503C3003A96E2 /* CustomCell.swift */; };
+		2C8D24841EF503C3003A96E2 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D24821EF503C3003A96E2 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2C8D24761EF4F7B0003A96E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C8D24791EF4F7B0003A96E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C8D247B1EF4F7B0003A96E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8D24811EF503C3003A96E2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2C8D24821EF503C3003A96E2 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				2C8D246F1EF4F7B0003A96E2 /* AppDelegate.swift */,
 				2C8D24711EF4F7B0003A96E2 /* ViewController.swift */,
+				2C8D24811EF503C3003A96E2 /* CustomCell.swift */,
+				2C8D24821EF503C3003A96E2 /* CustomCell.xib */,
 				2C8D24731EF4F7B0003A96E2 /* Main.storyboard */,
 				2C8D24761EF4F7B0003A96E2 /* Assets.xcassets */,
 				2C8D24781EF4F7B0003A96E2 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			files = (
 				2C8D247A1EF4F7B0003A96E2 /* LaunchScreen.storyboard in Resources */,
 				2C8D24771EF4F7B0003A96E2 /* Assets.xcassets in Resources */,
+				2C8D24841EF503C3003A96E2 /* CustomCell.xib in Resources */,
 				2C8D24751EF4F7B0003A96E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8D24721EF4F7B0003A96E2 /* ViewController.swift in Sources */,
+				2C8D24831EF503C3003A96E2 /* CustomCell.swift in Sources */,
 				2C8D24701EF4F7B0003A96E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
