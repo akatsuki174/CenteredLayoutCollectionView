@@ -19,7 +19,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2M-Nn-Kim">
-                        <rect key="frame" x="10" y="10" width="42" height="21"/>
+                        <rect key="frame" x="10" y="20.5" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -27,12 +27,20 @@
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="G2M-Nn-Kim" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="5ca-Ei-B4Q"/>
+                <constraint firstAttribute="trailing" secondItem="G2M-Nn-Kim" secondAttribute="trailing" id="PjJ-03-wPE"/>
                 <constraint firstItem="G2M-Nn-Kim" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="cpn-aA-DpH"/>
+                <constraint firstItem="G2M-Nn-Kim" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="o87-m6-l8r"/>
             </constraints>
             <size key="customSize" width="295" height="62"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="PjJ-03-wPE"/>
+                </mask>
+            </variation>
             <connections>
                 <outlet property="keywordLabel" destination="G2M-Nn-Kim" id="zpi-EA-cuH"/>
+                <outlet property="leadingConstraint" destination="cpn-aA-DpH" id="bjc-lG-GHo"/>
+                <outlet property="trailingConstraint" destination="PjJ-03-wPE" id="AjH-bf-GLm"/>
             </connections>
             <point key="canvasLocation" x="-40" y="-71"/>
         </collectionViewCell>

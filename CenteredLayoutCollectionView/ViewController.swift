@@ -36,9 +36,16 @@ extension ViewController: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
         cell.keywordLabel.text = String(indexPath.row)
         cell.backgroundColor = UIColor.gray
+        cell.keywordLabel.backgroundColor = UIColor.brown
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        if let cell = cell as? CustomCell {
+            cell.setupAlignment(index: indexPath.row)
+        }
+    }
+
 }
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
