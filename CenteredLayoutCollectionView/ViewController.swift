@@ -35,7 +35,6 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
         cell.keywordLabel.text = String(indexPath.row)
-        cell.backgroundColor = UIColor.gray
         cell.keywordLabel.backgroundColor = UIColor.brown
         return cell
     }

@@ -19,7 +19,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2M-Nn-Kim">
-                        <rect key="frame" x="10" y="20.5" width="42" height="21"/>
+                        <rect key="frame" x="0.0" y="20.5" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -28,7 +28,7 @@
             </view>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="G2M-Nn-Kim" secondAttribute="trailing" id="PjJ-03-wPE"/>
-                <constraint firstItem="G2M-Nn-Kim" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="cpn-aA-DpH"/>
+                <constraint firstItem="G2M-Nn-Kim" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cpn-aA-DpH"/>
                 <constraint firstItem="G2M-Nn-Kim" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="o87-m6-l8r"/>
             </constraints>
             <size key="customSize" width="295" height="62"/>
