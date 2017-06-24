@@ -12,6 +12,7 @@ import Foundation
 class ViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
+    let items = ["ああああああああ", "いいいいいい", "う", "ええええ", "おお", "かかかか", "ききき", "くくくくくく", "け", "こ", "さささささささ", "ししししししし", "すすすすすすす", "せせせ", "そそ", "たたた", "ちち", "つつつつつつつ", "ててててて", "と", "ななななななななななな", "にに", "ぬぬ", "ねねねねね", "ののの", "は", "ひひひ", "ふふふふふふふ", "へへへへへ", "ほほほ"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,12 +30,12 @@ class ViewController: UIViewController {
 
 extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 50
+        return items.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
-        cell.keywordLabel.text = String(indexPath.row)
+        cell.keywordLabel.text = items[indexPath.row]
         cell.keywordLabel.backgroundColor = UIColor.brown
         return cell
     }
