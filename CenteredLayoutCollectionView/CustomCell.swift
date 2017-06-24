@@ -16,9 +16,18 @@ class CustomCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        configureCell()
     }
-
+    
+    private func configureCell() {
+        keywordLabel.backgroundColor = UIColor.gray
+        keywordLabel.layer.cornerRadius = 10
+        keywordLabel.layer.borderColor = UIColor.black.cgColor
+        keywordLabel.layer.borderWidth = 1.0
+        keywordLabel.layer.masksToBounds = true
+        keywordLabel.adjustsFontSizeToFitWidth = true
+    }
+    
     func setupAlignment(index: Int) {
         keywordLabel.sizeToFit()
         if index % 2 == 0 { // 左側のセル
