@@ -10,7 +10,7 @@ import UIKit
 
 class CustomCell: UICollectionViewCell {
     
-    @IBOutlet weak var keywordLabel: UILabel!    
+    @IBOutlet weak var keywordLabel: PaddingLabel!
     @IBOutlet weak var trailingConstraint: NSLayoutConstraint!
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     
@@ -25,6 +25,7 @@ class CustomCell: UICollectionViewCell {
         keywordLabel.layer.borderColor = UIColor.black.cgColor
         keywordLabel.layer.borderWidth = 1.0
         keywordLabel.layer.masksToBounds = true
+        keywordLabel.insets = UIEdgeInsets(top: 5, left: 10, bottom: 5, right: 10)
         keywordLabel.adjustsFontSizeToFitWidth = true
     }
     

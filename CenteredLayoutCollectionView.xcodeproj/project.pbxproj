@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C18F9D11EFF6385008FF61D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18F9D01EFF6385008FF61D /* File.swift */; };
 		2C8D24701EF4F7B0003A96E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D246F1EF4F7B0003A96E2 /* AppDelegate.swift */; };
 		2C8D24721EF4F7B0003A96E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D24711EF4F7B0003A96E2 /* ViewController.swift */; };
 		2C8D24751EF4F7B0003A96E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D24731EF4F7B0003A96E2 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C18F9D01EFF6385008FF61D /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		2C8D246C1EF4F7B0003A96E2 /* CenteredLayoutCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenteredLayoutCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8D246F1EF4F7B0003A96E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C8D24711EF4F7B0003A96E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				2C8D24711EF4F7B0003A96E2 /* ViewController.swift */,
 				2C8D24811EF503C3003A96E2 /* CustomCell.swift */,
 				2C8D24821EF503C3003A96E2 /* CustomCell.xib */,
+				2C18F9D01EFF6385008FF61D /* File.swift */,
 				2C8D24731EF4F7B0003A96E2 /* Main.storyboard */,
 				2C8D24761EF4F7B0003A96E2 /* Assets.xcassets */,
 				2C8D24781EF4F7B0003A96E2 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8D24721EF4F7B0003A96E2 /* ViewController.swift in Sources */,
+				2C18F9D11EFF6385008FF61D /* File.swift in Sources */,
 				2C8D24831EF503C3003A96E2 /* CustomCell.swift in Sources */,
 				2C8D24701EF4F7B0003A96E2 /* AppDelegate.swift in Sources */,
 			);
