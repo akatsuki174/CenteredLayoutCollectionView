@@ -2,7 +2,7 @@
 //  PaddingLabel.swift
 //  CenteredLayoutCollectionView
 //
-//  Created by niji on 2017/06/25.
+//  Created by akatsuki174 on 2017/06/25.
 //  Copyright © 2017年 akatsuki174. All rights reserved.
 //
 
