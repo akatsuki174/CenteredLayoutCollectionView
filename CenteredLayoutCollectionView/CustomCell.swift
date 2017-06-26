@@ -16,10 +16,9 @@ class CustomCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        configureCell()
     }
     
-    private func configureCell() {
+    func configureCell() {
         keywordLabel.backgroundColor = UIColor.gray
         keywordLabel.layer.cornerRadius = 10
         keywordLabel.layer.borderColor = UIColor.black.cgColor
