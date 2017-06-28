@@ -29,7 +29,6 @@ class CustomCell: UICollectionViewCell {
     }
     
     func setupAlignment(index: Int) {
-        keywordLabel.sizeToFit()
         if index % 2 == 0 { // 左側のセル
             leadingConstraint.isActive = false
             trailingConstraint.isActive = true
