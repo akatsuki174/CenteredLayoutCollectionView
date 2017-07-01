@@ -12,7 +12,7 @@ import Foundation
 class ViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
-    let items = ["あああああああああああ", "いいいいいい", "う", "ええええ", "おお", "かかかか", "ききき", "くくくくくく", "け", "こ", "さささささささ", "しししししししししし", "すすすすすすす", "せせせ", "そそ", "たたた", "ちち", "つつつつつつつ", "ててててて", "と", "ななななななな", "にに", "ぬぬ", "ねねねねね", "ののの", "は", "ひひひ", "ふふふふふふふ", "へへへへへ", "ほほほ"]
+    let items = ["ああああああああああああああああ", "いいいいいい", "う", "ええええ", "おお", "かかかか", "ききき", "くくくくくく", "け", "こ", "さささささささ", "しししししししししし", "すすすすすすす", "せせせ", "そそ", "たたた", "ちち", "つつつつつつつ", "ててててて", "と", "ななななななな", "にに", "ぬぬ", "ねねねねね", "ののの", "は", "ひひひ", "ふふふふふふふ", "へへへへへ", "ほほほ"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,8 +50,12 @@ extension ViewController: UICollectionViewDataSource {
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.bounds.width / 2 - 10, height: 40.0)
+        return CGSize(width: collectionView.bounds.width / 2 - 20, height: 40.0)
     }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+    }
+
 }
 
